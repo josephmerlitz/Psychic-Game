@@ -1,13 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Word Guess Game</title>
-    <style src="assets/css/style.css"></style>
+    ​
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <style type="style/css" src="assets/css/style.css"></style>
+
+    <title>Home Page</title>
 </head>
+​
+
 <body>
-    
+    ​
+    <div class="container mt-3">
+        <div class="row mt-3">
+            <div class="col">
+                <h1>The Psychic Game</h1>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <h3><mark>Choose random letters to see if you can guess which letter I'm thinking about.</mark></h3>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <h1>Wins: <span class="badge badge-success" id="wins">0</span></h1>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <h1>Losses: <span class="badge badge-danger extra-styling" id="losses">0</span></h1>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <h1>Guesses left: <span class="badge badge-warning" id="left">9</span></h1>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <h1>Guesses count so far: <span class="badge badge-warning" id="count">0</span></h1>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <h1>Your guesses so far: <span class="badge badge-info" id="selections"></span></h1>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <h1>Result: <span class="badge badge-primary" id="result">New Game!</span></h1>
+            </div>
+        </div>
+    </div>
+    ​
 </body>
+​
+
 </html>
